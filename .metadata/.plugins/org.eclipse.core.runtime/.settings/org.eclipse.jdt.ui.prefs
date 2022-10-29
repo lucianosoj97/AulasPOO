@@ -1,0 +1,8 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Locale"/></lhs><lhs name\="entities.Product"><rhs name\="entities.Product"/></lhs><lhs name\="entities.Banco"><rhs name\="entities.Banco"/></lhs><lhs name\="entities.Produto"><rhs name\="entities.Produto"/></lhs><lhs name\="entities.vetor"><rhs name\="entities.vetor"/></lhs><lhs name\="entities.Vetor"><rhs name\="entities.Vetor"/></lhs><lhs name\="entities.Dados"><rhs name\="entities.Dados"/></lhs><lhs name\="entities.Employe"><rhs name\="entities.Employe"/></lhs><lhs name\="java.time.temporal.Temporal"><rhs name\="java.time.LocalDate"/><rhs name\="java.time.LocalDateTime"/><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.temporal.TemporalAccessor"><rhs name\="java.time.LocalDate"/><rhs name\="java.time.LocalDateTime"/><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.temporal.TemporalAdjuster"><rhs name\="java.time.LocalDate"/><rhs name\="java.time.LocalDateTime"/><rhs name\="java.time.Instant"/></lhs><lhs name\="java.time.chrono.ChronoLocalDate"><rhs name\="java.time.LocalDate"/></lhs><lhs name\="java.time.chrono.ChronoLocalDateTime"><rhs name\="java.time.LocalDateTime"/></lhs><lhs name\="java.time.temporal.TemporalUnit"><rhs name\="java.time.temporal.ChronoUnit"/></lhs></history>
+content_assist_number_of_computers=12
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

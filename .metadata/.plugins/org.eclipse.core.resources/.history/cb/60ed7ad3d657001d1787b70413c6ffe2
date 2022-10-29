@@ -1,0 +1,10 @@
+package exercicio_data;
+
+public class cauculos_com_datas {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

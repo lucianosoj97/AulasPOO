@@ -1,0 +1,19 @@
+package date;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class conceito_datas {
+
+	public static void main(String[] args) {
+
+		LocalDate d01 = LocalDate.now();
+		LocalDateTime d02 = LocalDateTime.now();
+		
+		
+		System.out.println("d01 = " + d01);
+		System.out.println("d01 = " + d02);
+
+	}
+
+}

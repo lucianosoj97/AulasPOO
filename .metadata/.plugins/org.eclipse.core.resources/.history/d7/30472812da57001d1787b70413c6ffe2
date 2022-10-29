@@ -1,0 +1,49 @@
+package exercicio_data;
+
+import java.time.Duration;
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.temporal.ChronoUnit;
+
+public class cauculos_com_datas {
+
+	public static void main(String[] args) {
+		
+		
+		LocalDate d04 = LocalDate.parse("2022-07-20");
+		LocalDateTime d05 = LocalDateTime.parse("2022-07-20T01:30:26");
+		Instant d06 = Instant.parse("2022-07-20T01:30:26Z");
+		
+		LocalDate pastWeekLocalDate = d04.minusDays(7);
+		LocalDate nextWeek = d04.plusDays(7);
+		
+		
+		System.out.println("Past Week Local Date = " + pastWeekLocalDate);
+		System.out.println("Next Week = " + nextWeek);
+		
+		System.out.println("------------------------------------------");
+		LocalDateTime pastWeekLocalDateTime = d05.minusDays(7);
+		LocalDateTime nextWeekTime = d05.plusDays(7);
+		
+		System.out.println("Past Week Local Date Time = " + pastWeekLocalDateTime);
+		System.out.println("Next Week Time= " + nextWeekTime);
+		
+		System.out.println("------------------------------------------");
+		Instant pastWeekInstant= d06.minus(7, ChronoUnit.DAYS);
+		Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
+		
+		System.out.println("Past Week Local Date Time = " + pastWeekInstant);
+		System.out.println("Next Week Time= " + nextWeekInstant);
+		
+		System.out.println("------------------------------------------");
+		Duration t1 = Duration.between(pastWeekLocalDateTime, d05);
+		Duration t2 = Duration.between(pastWeekLocalDate.atTime(0,0), d04.atTime(0,0));
+		
+		System.out.println("T1 = " + t1.toDays());
+		System.out.println("T2 = " + t2.toDays());
+		
+		
+	}
+
+}
