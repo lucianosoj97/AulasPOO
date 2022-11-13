@@ -11,6 +11,7 @@ INDEX VERSION 1.131+C:\Users\luciano.junior\Desktop\AULAS\curso_programacao\.met
 1163095267.index
 3929069845.index
 2161182619.index
+573955012.index
 1865797976.index
 3392934627.index
 2936596959.index
